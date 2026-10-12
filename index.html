@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Olympic Palace Brazzaville — Démo v2</title>
+<title>Olympic Palace Brazzaville — Démo</title>
 <meta name="description" content="Démo de refonte du site de l'Olympic Palace Hôtel, Brazzaville — concept Atelier KPM.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -173,6 +173,52 @@ footer{background:#071016;color:var(--doux);padding:44px var(--gut) 90px;display
 .demo-tag{position:fixed;left:12px;bottom:12px;z-index:50;font-size:12px;background:var(--nuit);color:var(--ivoire);padding:8px 12px;border:1px solid rgba(227,176,97,.6)}
 .demo-tag b{color:var(--ambre);font-weight:600}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+
+/* ---------- thème clair ---------- */
+:root{--bg:#FFFFFF;--bg2:#F6F2EA;--txt:#1B2A33;--soft:rgba(27,42,51,.74);--line:rgba(27,42,51,.16);--amb-d:#8A6420}
+body{background:var(--bg);color:var(--txt)}
+.top.solid{background:rgba(255,255,255,.96);color:var(--txt);border-bottom:1px solid var(--line)}
+.top.solid .logo small{color:var(--amb-d)}
+.top.solid .top-links a:hover{color:var(--amb-d)}
+.menu{background:var(--bg)}
+.menu-word{color:rgba(27,42,51,.06)}
+.menu nav a{color:var(--soft)}
+.menu nav a:hover,.menu nav a:focus-visible{color:var(--txt)}
+.menu-foot{color:var(--soft)}
+.intro{background:var(--bg2)}
+.intro .kicker{color:var(--amb-d)}
+.link{border-bottom-color:var(--amb-d)}
+.link:hover{color:var(--amb-d)}
+.rooms{background:var(--bg)}
+.arrows button{border-color:var(--line)}
+.arrows button:hover{border-color:var(--amb-d);color:var(--amb-d)}
+.card{color:var(--ivoire)}
+.resto{background:var(--bg2)}
+.rows{border-top-color:var(--line)}
+.rows li{border-bottom-color:var(--line)}
+.rows p{color:var(--soft)}
+.rows a{border-bottom-color:var(--amb-d)}
+.rows a:hover{color:var(--amb-d)}
+.events{background:var(--bg)}
+.events p{color:var(--soft)}
+.events dt{color:var(--amb-d)}
+form.devis label,.details label{color:var(--soft)}
+form.devis input,form.devis select,form.devis textarea,.details input,.details select,.details textarea{background:#fff;border-color:var(--line);color:var(--txt);color-scheme:light}
+form.devis small,.sejour small{color:var(--soft)}
+.sejour{background:var(--bg2)}
+.bar{border-left-color:var(--line);border-right-color:var(--line)}
+.bar>div+div{border-left-color:var(--line)}
+.bar .lab{color:var(--soft)}
+.count button:hover{color:var(--amb-d)}
+.info{background:var(--bg)}
+.info h3{color:var(--amb-d)}
+.info p{color:var(--soft)}
+footer{background:var(--bg2);color:var(--soft);border-top:1px solid var(--line)}
+footer .logo b{color:var(--txt)}
+footer .logo small{color:var(--amb-d)}
+.hero{color:var(--ivoire)}
+.card .art::after{background:linear-gradient(to top,rgba(11,24,32,.97) 0,rgba(11,24,32,.88) 38%,rgba(11,24,32,.45) 68%,rgba(11,24,32,0) 100%)}
+.card h3,.card p,.meta{text-shadow:0 1px 12px rgba(0,0,0,.45)}
 </style>
 </head>
 <body>
